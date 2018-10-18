@@ -54,7 +54,7 @@
             <configuration>
                  <filesets>
                     <fileset>
-                        <directory>/var/lib/jenkins/workspace/ElasticPerformance/AutomationTesting/Reportfile/
+                        <directory>/var/lib/jenkins/workspace/Reportfile/
                         </directory>
                         <!-- <directory>C:\apache-jmeter-4.0\apache-jmeter-4.0\bin\examples\csv</directory> -->
                         <includes>
@@ -66,7 +66,7 @@
                 
                 <fileset>
                         <!-- <directory>/var/lib/jenkins/workspace/TestPerformance/Reportfile</directory> -->
-                        <directory>/var/lib/jenkins/workspace/ElasticPerformance/AutomationTesting/Report/
+                        <directory>/var/lib/jenkins/workspace/Report/
                         </directory>
                         <!-- <directory>/var/lib/jenkins/workspace/ARCPerformance/Report</directory> -->
                         <includes>
@@ -106,14 +106,14 @@
             </goals>
             <configuration>
             <overwrite>false</overwrite>
-              <outputDirectory>/var/lib/jenkins/workspace/ElasticPerformance/AutomationTesting/Reportfile/
+              <outputDirectory>/var/lib/jenkins/workspace/Reportfile/
               </outputDirectory>
               
               <!-- <outputDirectory>C:\apache-jmeter-4.0\apache-jmeter-4.0\bin\examples\csv 
               </outputDirectory>-->
               <resources>          
                 <resource>
-                  <directory>/var/lib/jenkins/workspace/ElasticPerformance/AutomationTesting/src/test/jmeter
+                  <directory>/var/lib/jenkins/workspace/src/test/jmeter
                     /File</directory>
                   <!-- <directory>D:\Jenkins\workspace\TestPerformance\src\test\jmeter\File 
                     </directory>-->
