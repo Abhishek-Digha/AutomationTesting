@@ -29,7 +29,7 @@
           </elementProp>
           <elementProp name="RECORD_SIZE" elementType="Argument">
             <stringProp name="Argument.name">RECORD_SIZE</stringProp>
-            <stringProp name="Argument.value">${RECORD_SIZE}</stringProp>
+            <stringProp name="Argument.value">10</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
         </collectionProp>
