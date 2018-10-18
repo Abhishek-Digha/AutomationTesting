@@ -157,7 +157,7 @@
                 <connectTime>true</connectTime>
               </value>
             </objProp>
-            <stringProp name="filename">/var/lib/jenkins/workspace/ElasticPerformance/AutomationTesting/Reportfile/SummaryReport.csv</stringProp>
+            <stringProp name="filename">/var/lib/jenkins/workspace/ElasticPerformance/Reportfile/SummaryReport.csv</stringProp>
           </ResultCollector>
           <hashTree/>
           <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
