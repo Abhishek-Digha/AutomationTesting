@@ -27,11 +27,6 @@
             <stringProp name="Argument.value">b4eac287a05e468b934969945bb6b223.us-east-1.aws.found.io</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
-          <elementProp name="RECORD_SIZE" elementType="Argument">
-            <stringProp name="Argument.name">RECORD_SIZE</stringProp>
-            <stringProp name="Argument.value">${RECORD_SIZE}</stringProp>
-            <stringProp name="Argument.metadata">=</stringProp>
-          </elementProp>
         </collectionProp>
       </Arguments>
       <hashTree/>
