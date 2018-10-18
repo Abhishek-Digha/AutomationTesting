@@ -29,7 +29,7 @@
           </elementProp>
           <elementProp name="RECORD_SIZE" elementType="Argument">
             <stringProp name="Argument.name">RECORD_SIZE</stringProp>
-            <stringProp name="Argument.value">10</stringProp>
+            <stringProp name="Argument.value">${RECORD_SIZE}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
         </collectionProp>
@@ -100,7 +100,7 @@
             <collectionProp name="Arguments.arguments">
               <elementProp name="" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                <stringProp name="Argument.value">{&quot;query&quot;:{&quot;match_all&quot;:{}},&quot;size&quot;:${RECORD_SIZE},&quot;aggs&quot;:{&quot;type.keyword&quot;:{&quot;terms&quot;:{&quot;field&quot;:&quot;type.keyword&quot;,&quot;size&quot;:${RECORD_SIZE},&quot;order&quot;:{&quot;_count&quot;:&quot;desc&quot;}}}}}</stringProp>
+                <stringProp name="Argument.value">{&quot;query&quot;:{&quot;match_all&quot;:{}},&quot;size&quot;:100,&quot;aggs&quot;:{&quot;type.keyword&quot;:{&quot;terms&quot;:{&quot;field&quot;:&quot;type.keyword&quot;,&quot;size&quot;:100,&quot;order&quot;:{&quot;_count&quot;:&quot;desc&quot;}}}}}</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
             </collectionProp>
@@ -157,7 +157,7 @@
                 <connectTime>true</connectTime>
               </value>
             </objProp>
-            <stringProp name="filename">/var/lib/jenkins/workspace/ElasticPerformance/Reportfile/SummaryReport.csv</stringProp>
+            <stringProp name="filename">/var/lib/jenkins/workspace/ElasticPerformance/AutomationTesting/Reportfile/SummaryReport.csv</stringProp>
           </ResultCollector>
           <hashTree/>
           <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
